@@ -1,6 +1,7 @@
 def get_word_count(text: str):
     return len(text.split())
 
+
 def get_character_count(text: str):
     letter_count = {}
     for c in text:
